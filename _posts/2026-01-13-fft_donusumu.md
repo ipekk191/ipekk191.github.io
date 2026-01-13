@@ -15,6 +15,7 @@ Kimler İçin?
 -   Matematik, fizik, mühendislik öğrencileri
 - 	Sinyal işleme, görüntüleme veya müzik teknolojisiyle ilgilenenler
 - 	Bu formüller ne işe yarıyor?, Nereden geliyorlar?” diye soran meraklı zihinler
+
 Neler Var?
 -	  Fourier’in tarihsel yolculuğunu
 -	  Sinüs ve Kosinüsün geometrik kökenleri
@@ -24,4 +25,5 @@ Neler Var?
 -	  Dijital devrim olan FFT algoritmasını
 -	  Sinyallerin görsel dünyası
 -	 	Spektrogramlar, harmonikler, faz ve gürültü analizi
+  
 Matematiğin müziğe, mühendisliğe ve teknolojiye nasıl hayat verdiğini merak ediyorsanız, bu seri tam size göre.
