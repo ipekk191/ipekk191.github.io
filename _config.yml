@@ -3,10 +3,18 @@ author:
   avatar: "/assets/images/bio-photo.jpg"
   bio: "Merhaba, Ben 3. sınıf yazılım mühendisliği öğrencisiyim."
   location: "İstanbul/Türkiye"
+  email: sevvalipektopcu@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sevvalipektopcu@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ipekk191"
 
 kramdown:
   input: GFM
-  math_engine: null  # mathjax kapalı
+  math_engine: null
   auto_ids: true
 
 incremental: false
@@ -16,4 +24,17 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
-#  - jekyll-include-cache  <-- bunu kaldır
+#  - jekyll-include-cache  <-- kaldırdın zaten
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true   # avatar ve profil görünmesi için gerekli
+      read_time: true
+      comments: true
+      share: true
+      related: true
