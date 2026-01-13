@@ -28,3 +28,29 @@ layout: archive
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
 {% endfor %}
+
+{% assign current_category = page.categories[0] %}
+{% assign current_tag = page.tags[0] %}
+
+{% assign same_series_posts = site.posts
+  | where_exp: "post", "post.categories contains current_category"
+  | where_exp: "post", "post.tags contains current_tag"
+  | sort: "date" %}
+
+{% for post in same_series_posts %}
+  {% if post.url == page.url %}
+    {% assign index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+<nav class="post-navigation">
+  {% if index > 0 %}
+    {% assign prev_post = same_series_posts[index | minus: 1] %}
+    <a class="prev" href="{{ prev_post.url }}">← {{ prev_post.title }}</a>
+  {% endif %}
+
+  {% if index < same_series_posts.size | minus: 1 %}
+    {% assign next_post = same_series_posts[index | plus: 1] %}
+    <a class="next" href="{{ next_post.url }}">{{ next_post.title }} →</a>
+  {% endif %}
+</nav>
