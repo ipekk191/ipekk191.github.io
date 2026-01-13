@@ -15,3 +15,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-gist
+#  - jekyll-include-cache  <-- bunu kaldır
