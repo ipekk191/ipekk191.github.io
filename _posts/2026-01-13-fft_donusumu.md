@@ -10,7 +10,8 @@ Her gün bir adım daha derine inerek, hem teoriyi hem de gerçek dünya uygulam
 Bu seri sadece “formülü verip geçmek” değil;
 -   Her terimin nereden geldiğini
 -  	Kullanılan matematiksel fikirlerin tarihsel kökenlerini
--   Bunların günlük hayatta nasıl hayat kurtardığını göstermeyi amaçlıyor. 
+-   Bunların günlük hayatta nasıl hayat kurtardığını göstermeyi amaçlıyor.
+  
 Kimler İçin?
 -   Matematik, fizik, mühendislik öğrencileri
 - 	Sinyal işleme, görüntüleme veya müzik teknolojisiyle ilgilenenler
