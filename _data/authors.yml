@@ -1,6 +1,6 @@
 ipek:
   name: "İpek"
-  image: "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.jpg"
   bio: "Merhaba, Ben 3. sınıf yazılım mühendisliği öğrencisiyim."
   location: "İstanbul/Türkiye"
   email: sevvalipektopcu@gmail.com
