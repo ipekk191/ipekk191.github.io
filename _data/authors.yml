@@ -1,0 +1,13 @@
+ipek:
+  name: "İpek"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Merhaba, Ben 3. sınıf yazılım mühendisliği öğrencisiyim."
+  location: "İstanbul/Türkiye"
+  email: sevvalipektopcu@gmail.com
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:sevvalipektopcu@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ipekk191"
