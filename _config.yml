@@ -1,5 +1,8 @@
 author: ipek
   
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
 
 kramdown:
   input: GFM
@@ -13,7 +16,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
-#  - jekyll-include-cache  <-- kaldırdın zaten
+  - jekyll-include-cache  <-- kaldırdın zaten
 
 # Defaults
 defaults:
