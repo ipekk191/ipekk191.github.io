@@ -1,6 +1,9 @@
 ---
+layout: post
 title: "Fourier Serisi: Evrenin Ritimlerini Anlamak"
+date: 2026-01-13
 categories: [matematik]
+author: ipek
 tags: [fourier, seri]
 ---
 ![Fourier Serisi](/assets/images/fourier-cover.jpg)
